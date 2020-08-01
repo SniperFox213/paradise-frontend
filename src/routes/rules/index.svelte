@@ -28,7 +28,7 @@
       <h1 class="text-2xl w-full text-center">Основные правила</h1>
 
       { #each rules as entry }
-        <div class="max-w-sm rounded overflow-hidden shadow-lg my-12">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg my-12 bg-white">
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2"><span class="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">{entry.number}</span> {entry.name}</div>
               
